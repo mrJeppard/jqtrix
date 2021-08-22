@@ -1,9 +1,6 @@
 # jqtrix
 A reference for common tasks with jq.
 
-Snippets: One liners 
-Sugar scripts: Examples of how to make scripts with jq command.
-
 ## Scripts
 First arg for all scripts is 'key', 2nd is optional file path.
 

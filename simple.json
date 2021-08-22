@@ -1,0 +1,8 @@
+{
+    "root": {
+	    "leaf": "str",
+	    "array": [
+          {"leaf":  "str"}
+        ]
+    }
+}

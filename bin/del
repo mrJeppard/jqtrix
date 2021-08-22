@@ -1,0 +1,13 @@
+#!/bin/bash
+# Note the use of --arg and the [$KEY] variable placement below.
+
+KEY=$1
+FILE=$2
+
+if [ -z "$FILE" ] 
+then
+   cat /dev/stdin | jq -r --arg KEY "$KEY" 'del(.. | .[$KEY]?)'
+else
+   jq -r --arg KEY "$KEY" 'del(.. | .[$KEY]?)' ${FILE}
+fi
+

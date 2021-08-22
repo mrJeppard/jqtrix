@@ -1,5 +1,5 @@
 # jqtrix
-A reference for common tasks with jq, the bash json parser. 
+A reference for common tasks with jq.
 
 Snippets: One liners 
 Sugar scripts: Examples of how to make scripts with jq command.
